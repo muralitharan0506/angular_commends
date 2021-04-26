@@ -1,0 +1,36 @@
+This is example for how to create own library and publish local npm
+
+reference site : https://jinalshah999.medium.com/how-to-build-and-publish-angular-library-a333d6ff12c0
+
+
+ng new anuguarLibraryProject
+
+ng generate library my-demo-lib
+
+
+create you functions then
+
+ng build my-demo-lib
+
+open disc folder created compiled build files
+
+open disc/your-library-name folder
+
+npm pack
+
+make a Pack (target) file with a name .tgz extenstion
+
+publishing done you can import your project
+
+
+how to import your own library to new project
+
+ng new angularTry1
+
+npm i .tgz file location
+
+
+
+
+commend for create component specific project
+ng g c CounterDemo --project my-demo-lib
