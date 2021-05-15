@@ -34,3 +34,8 @@ npm i .tgz file location
 
 commend for create component specific project
 ng g c CounterDemo --project my-demo-lib
+
+
+update node version
+
+https://phoenixnap.com/kb/update-node-js-version
