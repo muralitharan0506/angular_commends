@@ -39,3 +39,8 @@ ng g c CounterDemo --project my-demo-lib
 update node version
 
 https://phoenixnap.com/kb/update-node-js-version
+
+
+
+commend for create componet with module and routing import with admin module
+ng g m home --route home --module app.module
